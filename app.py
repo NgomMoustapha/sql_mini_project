@@ -11,7 +11,7 @@ from tabs import intro, second_tab, third_tab
 
 st.set_page_config(
     page_title=config.TITLE,
-    page_icon="https://datascientest.com/wp-content/uploads/2020/03/cropped-favicon-datascientest-1-32x32.png",
+    page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_bnuiBj-yvKr-I6XxgqcgEQHCIdRZrlQ_g&usqp=CAU",
 )
 
 with open("style.css", "r") as f:
