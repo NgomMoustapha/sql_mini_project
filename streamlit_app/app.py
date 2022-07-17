@@ -15,7 +15,7 @@ st.set_page_config(
     page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_bnuiBj-yvKr-I6XxgqcgEQHCIdRZrlQ_g&usqp=CAU",
 )
 
-with open("sql_mini_project/main/streamlit_app/style.css", "r") as f:
+with open("ngommoustapha/sql_mini_project/main/streamlit_app/style.css", "r") as f:
     style = f.read()
 
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
