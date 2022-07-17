@@ -1,0 +1,6 @@
+,name,type,nullable,default,autoincrement,primary_key
+0,title_id,VARCHAR,True,,auto,0
+1,person_id,VARCHAR,True,,auto,0
+2,category,VARCHAR,True,,auto,0
+3,job,VARCHAR,True,,auto,0
+4,characters,VARCHAR,True,,auto,0
