@@ -2,7 +2,6 @@ from collections import OrderedDict
 
 import streamlit as st
 
-from streamlit_app import style
 
 # TODO : change TITLE, TEAM_MEMBERS and PROMOTION values in config.py.
 import config
