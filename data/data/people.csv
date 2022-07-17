@@ -1,5 +1,0 @@
-,name,type,nullable,default,autoincrement,primary_key
-0,person_id,VARCHAR,True,,auto,1
-1,name,VARCHAR,True,,auto,0
-2,born,INTEGER,True,,auto,0
-3,died,INTEGER,True,,auto,0

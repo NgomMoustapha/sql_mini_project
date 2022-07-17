@@ -1,4 +1,0 @@
-,name,type,nullable,default,autoincrement,primary_key
-0,title_id,VARCHAR,True,,auto,1
-1,rating,INTEGER,True,,auto,0
-2,votes,INTEGER,True,,auto,0

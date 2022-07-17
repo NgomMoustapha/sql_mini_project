@@ -1,5 +1,0 @@
-,name,type,nullable,default,autoincrement,primary_key
-0,episode_title_id,INTEGER,True,,auto,0
-1,show_title_id,INTEGER,True,,auto,0
-2,season_number,INTEGER,True,,auto,0
-3,eposide_number,INTEGER,True,,auto,0

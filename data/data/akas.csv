@@ -1,8 +1,0 @@
-,name,type,nullable,default,autoincrement,primary_key
-0,title_id,VARCHAR,True,,auto,0
-1,title,VARCHAR,True,,auto,0
-2,region,VARCHAR,True,,auto,0
-3,language,VARCHAR,True,,auto,0
-4,types,VARCHAR,True,,auto,0
-5,attributes,VARCHAR,True,,auto,0
-6,is_original_title,INTEGER,True,,auto,0
