@@ -25,6 +25,7 @@ def run():
 
     if st.button("Afficher les attributs de la table"):
         table_affiche=pd.read_csv(""+choice+".csv")
+        table_affiche.drop(columns=table_affiche.columns[0], axis=1, inplace=True)
         st.dataframe(table_affiche)
 
     st.markdown(
@@ -40,6 +41,9 @@ def run():
         """
     )
     meilleurs_titres=pd.read_csv('50_meilleurs_titres.csv')
+    meilleurs_titres.drop(columns=meilleurs_titres.columns[0], axis=1, inplace=True)
+
+   
     
 
 
@@ -61,6 +65,8 @@ def run():
 
     if st.button("Afficher les films"):
         table_affiche2=pd.read_csv(""+choice2+".csv")
+        table_affiche2.drop(columns=table_affiche2.columns[0], axis=1, inplace=True)
+
         st.dataframe(table_affiche2)
     
     st.markdown(
@@ -76,6 +82,7 @@ def run():
     )
     
     titres_par_type=pd.read_csv('nombre_de_titre_par_type.csv',index_col='type')
+    titres_par_type.drop(columns=ttitres_par_type.columns[0], axis=1, inplace=True)
     
 
 
@@ -100,6 +107,7 @@ def run():
         """
     )
     notes_par_genre=pd.read_csv('note_moyenne_par_genre.csv')
+    notes_par_genre.drop(columns=notes_par_genre.columns[0], axis=1, inplace=True)
     st.dataframe(notes_par_genre)
 
 
