@@ -82,7 +82,7 @@ def run():
     )
     
     titres_par_type=pd.read_csv('nombre_de_titre_par_type.csv',index_col='type')
-    titres_par_type.drop(columns=ttitres_par_type.columns[0], axis=1, inplace=True)
+    titres_par_type.drop(columns=titres_par_type.columns[0], axis=1, inplace=True)
     
 
 
