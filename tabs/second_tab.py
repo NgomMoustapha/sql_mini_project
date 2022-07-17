@@ -24,7 +24,7 @@ def run():
     choice = st.selectbox(label="Choisissez une table pour afficher ses attributs",options =['akas','crew','episodes','people','ratings','titles'])
 
     if st.button("Afficher les attributs de la table"):
-        table_affiche=pd.read_csv("sql_mini_project/data/"+choice+".csv")
+        table_affiche=pd.read_csv("sql_mini_project/blob/main/data/"+choice+".csv")
         st.dataframe(table_affiche)
 
     st.markdown(
