@@ -17,7 +17,7 @@ def run():
 
     st.markdown(
         """
-        **Ce streamlit a pour but de mettre en avant les bases que j'ai acquise au cours de ma certification SQL. 
+        **Ce streamlit a pour but de mettre en avant les bases que j'ai acquise au cours de ma certification SQL et surtout de deployer ma premiere demo streamlit en solo.
         La page suivante montre une illustration des requêtes ,qui ont déja été faites en local, transformées en Data Frame, puis transportées sur Github.
         J'ai abordé des concepts fondamentaux de requêtages. 
         J'ai utilisé SQL Alchemy qui est une librairie Python très utilisée pour se connecter à un système de gestion de bases de données relationnelles. Il permet d'interpréter du code SQL.
